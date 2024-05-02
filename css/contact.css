@@ -1,0 +1,182 @@
+/* :root {
+  --gray-color: #313e49;
+  --base-color: #49a760;
+  --primary-color: #efb443;
+  --special-color: #5366c2;
+  --main-color: #09b189;
+  --sec-color:#0d8a6d;
+  --text-dark: #8e96a0;
+  --main-padding: 50px;
+  --main-text: #ffffff8c;
+  --main-transition: 0.3s;
+} */
+/* Start Contact One Section */
+.contact-one {
+  margin-top: 83.83px;
+  background-image: url("../assets/farmer-hand-nurturing-young-baby-plants.jpg");
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .contact-one {
+    margin-top: 83.83px;
+  }
+}
+.contact-one h2 {
+  font-size: 65px;
+  padding-top: 15px;
+  font-family: "Handlee", cursive;
+  font-style: italic;
+}
+.contact-one .contact-one-links a {
+  color: var(--main-color);
+  font-size: 18px;
+  padding-right: 10px;
+}
+.contact-one-links a:hover {
+  color: #fff;
+}
+.contact-one-links .mark {
+  background: none ;
+}
+.contact-one-links span {
+  padding-left: 10px;
+  color: var(--main-color);
+}
+
+/* End Contact One Section */
+
+/* Start Contact Two Section */
+.contact-two{
+    padding : var(--main-padding) 0;
+  }
+  .contact-two-left-img{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-two-left-img img{
+    width: 108px;
+  }
+  .contact-two-left-img span{
+    color: #949494;
+    font-size: 13px;
+  }
+  .contact-two-left h3{
+    color: var(--main-color);
+    font-size: 45px;
+    font-weight: 500px;
+    padding-top: 20px;
+  }
+  .contact-two-left p{
+    color: var(--gray-color);
+    font-weight: 500px;
+    padding-top: 20px;
+    line-height: 30px;
+  }
+  .contact-two-right input , textarea{
+    width: 100%;
+    padding: 18px 20px;
+    background-color: #f4f4f0;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+  }
+  .contact-two .options select{
+    width: 100%;
+    padding: 18px 20px;
+    background-color: #f4f4f0;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .contact-two-right textarea{
+    resize: none;
+  }
+  .contact-two-right input:focus , textarea:focus{
+    border: 1px solid var(--main-color); 
+    outline: none;
+  }
+  .contact-two-right button{
+    margin-top: 20px;
+    padding: 16px 39px;
+    background-color: var(--main-color);
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+  }
+  .contact-two-right button:hover{
+    background-color: var(--sec-color);
+  }
+  /* End Contact Two Section */
+
+  /* Start Contact Three Section */
+  .contact-three{
+    padding-bottom: var(--main-padding);
+  }
+  .contact-three-parent{
+    background-color: #F6F5f2;
+    padding: 100px 0;
+  }
+  .contact-three-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-three-icon i{
+    font-size: 35px;
+    color:#fff;
+  }
+  .contact-three h3{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+  }
+  .contact-three p{
+    padding-top: 10px;
+    color: var(--gray-color);
+    line-height: 30px;
+  }
+  .contact-card{
+    padding:0 60px;
+    position: relative;
+  }
+  .contact-card:not(:first-child){
+    border-left: 1px solid #E9E7E2;
+    
+  }
+  @media (max-width:991px) {
+    .contact-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+    }
+    .contact-card:not(:first-child){
+      border-left: none;
+    }
+  }
+  /* End Contact Two Section */
+
+  #map {
+    height: 60vh;
+    margin-top: 50px'
+  }
+

@@ -1,0 +1,167 @@
+/* :root {
+  --gray-color: #313e49;
+  --base-color: #49a760;
+  --primary-color: #efb443;
+  --special-color: #5366c2;
+  --main-color: #09b189;
+  --sec-color:#0d8a6d;
+  --text-dark: #8e96a0;
+  --main-padding: 50px;
+  --main-text: #ffffff8c;
+  --main-transition: 0.3s;
+} */
+/* Start About One Section */
+.about-one {
+  margin-top: 83.83px;
+  background-image: url("../assets/farmer-hand-nurturing-young-baby-plants.jpg");
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .about-one {
+    margin-top: 83.83px;
+  }
+}
+.about-one h2 {
+  font-size: 65px;
+  padding-top: 15px;
+  font-family: "Handlee", cursive;
+  font-style: italic;
+}
+.about-one .about-one-links a {
+  color: var(--main-color);
+  font-size: 18px;
+  padding-right: 10px;
+}
+.about-one-links a:hover {
+  color: #fff;
+}
+.about-one-links .mark {
+  color: var(--main-color);
+  background: none;
+}
+.about-one-links span {
+  color: var(--main-color);
+  padding-left: 10px;
+}
+/* End About One Section */
+
+/* Start Intro Section */
+.about-intro {
+  padding-top: var(--main-padding);
+}
+.about-intro img {
+  width: 80%;
+  height: 300px;
+}
+.about-intro-img {
+  display: flex;
+  justify-content: center;
+}
+.about-intro span {
+  color: #949494;
+}
+.about-intro h3 {
+  color: var(--main-color);
+  font-size: 46px;
+  padding-top: 10px;
+}
+.about-intro p {
+  color: var(--gray-color);
+  padding-top: 20px;
+  line-height: 30px;
+}
+/* End Intro Section */
+
+/* Start About Two Section  */
+.about-two {
+  padding: var(--main-padding) 0;
+}
+.about-two-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-two-left p {
+  color: var(--gray-color);
+  line-height: 30px;
+}
+.about-two-right {
+  display: flex;
+  justify-content: center;
+}
+.about-two-right img {
+  width: 80%;
+  border-radius: 27px;
+}
+/* End About Two Section  */
+
+/* Start About Three Section  */
+.about-three {
+  width: 100%;
+  height: 500px;
+  background-image: url("../ASSETS/cta-1-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.about-three-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--sec-color);
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-three-overlay h3 {
+  line-height: 40px;
+  max-width: 40%;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Handlee", cursive;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .about-three-overlay h3 {
+    max-width: 85%;
+    margin-bottom: 50px;
+  }
+}
+.about-three-overlay a {
+  padding: 15px 25px;
+  font-weight: 700px;
+  font-size: 20px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+.about-three-overlay a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .about-three-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* End About Three Section  */

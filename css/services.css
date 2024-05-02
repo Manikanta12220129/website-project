@@ -1,0 +1,150 @@
+/* Start Services-One Section */
+.services-one {
+  margin-top: 83.83px;
+  background-image: url("../assets/farmer-hand-nurturing-young-baby-plants.jpg");
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .services-one {
+    margin-top: 83.83px;
+  }
+}
+.services-one h2 {
+  font-size: 65px;
+  padding-top: 15px;
+  font-family: "Handlee", cursive;
+  font-style: italic;
+}
+.services-one .services-one-links a {
+  color: var(--main-color);
+  font-size: 18px;
+  padding-right: 10px;
+}
+.services-one-links a:hover {
+  color: #fff;
+}
+.services-one-links .mark {
+  color: var(--main-color);
+  background: none;
+}
+.services-one-links span {
+  color: var(--main-color);
+  padding-left: 10px;
+}
+/* End Services-One Section */
+
+.services{
+  padding: var(--main-padding) 0;
+}
+.services-titles{
+  text-align: center;
+}
+.services-titles h1{
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 40px;
+}
+.services-titles p{
+  color: var(--gray-color);
+  margin: auto;
+  max-width: 65%;
+  font-size: 22px;
+  font-family: "Handlee", "cursive" !important;
+}
+.service-item-right , .service-item-left{
+  padding-top: 100px;
+}
+.service-item-right .text{
+  align-self: center;
+  text-align: center;
+}
+.service-item-right .text h2{
+  font-family: "Handlee", "cursive" !important;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 40px;
+}
+.service-item-right .text p {
+  padding-top: 6px;
+  color: var(--gray-color);
+}
+.service-item-right img{
+  border-radius: 25px;
+  width: 100%;
+}
+.service-item-right-img{
+  position: relative;
+}
+.service-item-rigth-img::before{
+  position:absolute;
+  content: "";
+  width: 90%;
+  height: 100%;
+  background-color: var(--main-color);
+  border-radius: 25px;
+  right: 5px;
+  top: 10px;
+  z-index: -1;
+}
+.service-item-left .text{
+  align-self: center;
+  text-align: center;
+}
+.service-item-left .text h2{
+  font-family: "Handlee", "cursive" !important;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 40px;
+}
+.service-item-left .text p {
+  color: var(--gray-color);
+}
+.service-item-left-img img{
+  border-radius: 25px;
+  width: 100%;
+}
+.service-item-left-img{
+  position: relative;
+}
+.service-item-left-img::before{
+  position:absolute;
+  content: "";
+  width: 90%;
+  height: 100%;
+  background-color: var(--main-color);
+  border-radius: 25px;
+  left: 5px;
+  top: 10px;
+  z-index: -1;
+}
+@media (min-width:992px) and (max-width: 1200px){
+  .services-titles p{
+    max-width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width:991px) {
+  .service-item-right , .service-item-left{
+    padding-top: 70px;
+  }
+  .service-item-right .text{
+    order: 2;
+    padding-top: 30px;
+  }
+  .service-item-left .text{
+    padding-top: 30px;
+  }
+  .service-item-right .text h2,
+  .service-item-left .text h2{
+    font-size: 30px;
+  }
+}
